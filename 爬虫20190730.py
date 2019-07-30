@@ -21,12 +21,9 @@ newsfrom = author[0].text
 newsauthor = author[1].text
 
 
-
-
-
-
-
-#采集单页URL目录   首页 -> 师资情况 -> 教师队伍
+---------------------------------------
+#采集单页URL目录   
+#目标网页 ：首页 -> 师资情况 -> 教师队伍
 import requests
 
 from bs4 import BeautifulSoup
@@ -47,8 +44,8 @@ url_all=[]
 for urltemp in urldiv:
     url = urltemp.a['href']
     url_all.append(url)
-    
-        
+  
+      
     
 #采集多页URL  
 #特点是页面下面是1234567导航，样本为学堂在线
