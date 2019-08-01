@@ -1,6 +1,17 @@
-##一个典型的时间线可视化工具 Time.Graphic
-   Time.Graphic有点类似于IBM已经停止开发的[Historio](https://researcher.watson.ibm.com/researcher/view_group.php?id=3359)
-  作品链接： [Time.Graphic ](https://time.graphics/line/284714)
+#一个典型的时间线可视化工具 Time.Graphic
+
+  ##软件介绍：
+        Time.Graphic有点类似于IBM已经停止开发的[Historio](https://researcher.watson.ibm.com/researcher/view_group.php?id=3359)
+   
+  ##作品链接： [新闻事件可视化](https://time.graphics/line/284714)
+
+
+
+
+
+
+
+
 
 
 
