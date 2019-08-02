@@ -6,3 +6,6 @@
 
 ##教程
 书籍：[网络数据可视化与分析利器：Gephi中文教程](https://e.jd.com/30366712.html)（刘勇） 
+慕课：[Gephi 中文教程](https://www.udemy.com/gephi/)（刘勇） 
+报告：[数据可视化工具Gephi在社交网络数据分析中的运用](https://weibo.com/ttarticle/p/show?id=2309404004881009644617)(刘勇)
+博客：[Github](https://github.com/xiandashuju/yishusheji)
