@@ -3,3 +3,6 @@
 
 ##安装 Gephi
 前往[Gephi]官网(https://gephi.org/users/download/)，下载对应的版本进行安装。
+
+##教程
+书籍：[网络数据可视化与分析利器：Gephi中文教程](https://e.jd.com/30366712.html)（刘勇） 
