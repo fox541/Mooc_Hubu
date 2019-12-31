@@ -1,11 +1,12 @@
-1 下载安装 xdm(linux下最快的下载工具，不亚于IDM)
+# 1 下载安装 <a href="https://subhra74.github.io/xdm/">xdm</a><br />
+(linux下最快的下载工具，不亚于IDM)<br />
 
 xdm      ./install.sh
 
 
-2 下载Anaconda
+#2 下载 Anaconda
 
-地址
+<a href="https://www.anaconda.com/download/">地址</a>
 
 
 
