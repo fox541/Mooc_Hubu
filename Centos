@@ -1,0 +1,122 @@
+1 下载安装 xdm(linux下最快的下载工具，不亚于IDM)
+
+xdm      ./install.sh
+
+
+2 下载Anaconda
+
+地址
+
+
+
+3 安装
+
+用root用户
+
+bash Anaconda3-2019.10-Linux-x86_64.sh
+
+安装完后增加环境变量
+
+vim /root/.bashrc 
+
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+if [ -f /etc/bashrc ];then
+        . /etc/bashrc
+fi
+
+export PATH="/root/anaconda3/bin:$PATH"
+
+
+
+
+保存 
+
+激活配置文件
+
+source /root/.bashrc
+
+
+4 验证安装结果
+
+在终端中输入命令conda list，如果anaconda被成功安装，则会显示安装的包名和版本号
+
+(base) [root@vxfhost ~]# conda list
+# packages in environment at /root/anaconda3:
+#
+# Name                    Version                   Build  Channel
+_ipyw_jlab_nb_ext_conf    0.1.0                    py37_0  
+_libgcc_mutex             0.1                        main  
+alabaster                 0.7.12                   py37_0  
+anaconda                  2019.10                  py37_0  
+anaconda-client           1.7.2                    py37_0  
+anaconda-navigator        1.9.7                    py37_0  
+anaconda-project          0.8.3                      py_0  
+asn1crypto                1.0.1                    py37_0  
+..........................................
+在终端中输入  ipython 
+
+(base) [root@vxfhost jupyter]# ipython
+Python 3.7.4 (default, Aug 13 2019, 20:35:49) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.8.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:                                                              
+退出Python交互界面 exit()或quit()
+
+测试
+
+
+
+5 安装jupyter
+
+pip install jupyter
+
+
+
+6 启动jupyter notebook
+
+到jupyter目录下
+
+cd /root/anaconda3/etc/jupyter
+
+启动
+
+jupyter notebook --allow-root
+
+
+
+7  启动Python IDE Spyder：
+
+    在命令窗口直接输入spyder，系统会自动启动spyder3。
+
+(base) [root@vxfhost ~]# spyder
+
+
+
+8 安装python可视化图形界面，安装数据分析库
+
+(base) [root@vxfhost jupyter]#  pip install numpy
+Requirement already satisfied: numpy in /root/anaconda3/lib/python3.7/site-packages (1.17.2)
+
+
+(base) [root@vxfhost jupyter]# pip install  matplotlib
+Requirement already satisfied: matplotlib in /root/anaconda3/lib/python3.7/site-packages (3.1.1)
+Requirement already satisfied: cycler>=0.10 in /root/anaconda3/lib/python3.7/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /root/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.1.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /root/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.4.2)
+Requirement already satisfied: python-dateutil>=2.1 in /root/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.8.0)
+Requirement already satisfied: numpy>=1.11 in /root/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.17.2)
+Requirement already satisfied: six in /root/anaconda3/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.12.0)
+Requirement already satisfied: setuptools in /root/anaconda3/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (41.4.0)
+
+
+
+
+
