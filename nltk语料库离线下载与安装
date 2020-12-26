@@ -1,12 +1,13 @@
-
+#下载
 首先手动下载nltk数据集（所有的）
-nltk官方网站github下载
+nltk官方网站[github](https://github.com/nltk/nltk_data)下载
 或者直接下载下面的文件包
 
 https://pan.baidu.com/s/1oUsf-FgVAZnQAtZWRwiK4w 提取码：9sor
 
-(感谢@Irene 提供的数据)
+(感谢[@Irene](https://blog.csdn.net/qq_42871249/article/details/105322130)提供的数据)
 
+#安装
 然后把下载好的压缩包解压至上图中的Download Directory目录下，即
 C:\Users\Administrator\AppData\Roaming\nltk_data
 或
@@ -15,6 +16,7 @@ D:\nltk_data
 E:\nltk_data
 目录下，每个人的机子这个地方可能不一样。
 
+#测试
 安装成功
 安装成功后，在命令行界面输入以下命令：
 from nltk.book import *
